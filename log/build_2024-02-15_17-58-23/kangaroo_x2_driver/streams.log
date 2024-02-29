@@ -1,0 +1,113 @@
+[0.124s] Invoking command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/kangaroo_x2_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.355s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.992s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.467s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.474s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.661s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.706s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.804s] -- Looking for C++ include pthread.h
+[1.930s] -- Looking for C++ include pthread.h - found
+[1.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.051s] -- Found Threads: TRUE  
+[2.414s] -- Found serial: 1.2.1 (/home/ubuntu/ros2_ws/install/serial/share/serial/cmake)
+[2.516s] -- Configuring done
+[2.532s] -- Generating done
+[2.534s] -- Build files have been written to: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver
+[2.545s] Invoked command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/kangaroo_x2_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver
+[2.546s] Invoking command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver -- -j4 -l4
+[2.607s] [  8%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooChannel.cpp.o[0m
+[2.607s] [ 16%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooCommandWriter.cpp.o[0m
+[2.610s] [ 25%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooCRC.cpp.o[0m
+[2.613s] [ 33%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooMonitor.cpp.o[0m
+[3.175s] [ 41%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooReplyReader.cpp.o[0m
+[3.198s] [ 50%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooReplyReceiver.cpp.o[0m
+[3.224s] [ 58%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooSerial.cpp.o[0m
+[3.290s] [ 66%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooStatus.cpp.o[0m
+[3.682s] [ 75%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Kangaroo/KangarooTimeout.cpp.o[0m
+[3.811s] [ 83%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/include/Arduino/Arduino.cpp.o[0m
+[3.816s] [ 91%] [32mBuilding CXX object CMakeFiles/kangaroo_x2_driver.dir/src/kangaroo_x2_driver/test.cpp.o[0m
+[4.160s] [01m[K/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/src/kangaroo_x2_driver/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[4.160s] [01m[K/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/src/kangaroo_x2_driver/test.cpp:11:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kenc_count_per_rev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.160s]    11 |     unsigned long [01;35m[Kenc_count_per_rev[m[K = 1200;
+[4.160s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.386s] [100%] [32m[1mLinking CXX shared library libkangaroo_x2_driver.so[0m
+[4.572s] [100%] Built target kangaroo_x2_driver
+[4.590s] Invoked command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver -- -j4 -l4
+[4.669s] Invoking command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver
+[4.676s] -- Install configuration: ""
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Arduino
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Arduino/Arduino.cpp
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Arduino/Arduino.h
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooReplyReader.cpp
+[4.677s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/changes.txt
+[4.680s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooChannel.cpp
+[4.680s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooTimeout.cpp
+[4.680s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/keywords.txt
+[4.681s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/license.txt
+[4.681s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooCRC.cpp
+[4.682s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooSerial.cpp
+[4.683s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooMonitor.cpp
+[4.683s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooStatus.cpp
+[4.683s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples
+[4.683s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics
+[4.686s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/SpeedControl
+[4.686s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/SpeedControl/SpeedControl.ino
+[4.686s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/MixedMode
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/MixedMode/MixedMode.ino
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/Movement
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/1.Basics/Movement/Movement.ino
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/PowerDown
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/PowerDown/PowerDown.ino
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/Streaming
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/Streaming/Streaming.ino
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/ProgrammaticTune
+[4.687s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/3.Advanced/ProgrammaticTune/ProgrammaticTune.ino
+[4.688s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/2.Settings
+[4.688s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/2.Settings/SerialTimeout
+[4.688s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/examples/2.Settings/SerialTimeout/SerialTimeout.ino
+[4.688s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/Kangaroo.h
+[4.688s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooReplyReceiver.cpp
+[4.689s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooCommandWriter.cpp
+[4.689s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/include/Kangaroo/KangarooArduinoLibrary.chm
+[4.691s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/lib/libkangaroo_x2_driver.so
+[4.692s] -- Set runtime path of "/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/lib/libkangaroo_x2_driver.so" to ""
+[4.692s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/library_path.sh
+[4.692s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/library_path.dsv
+[4.692s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/ament_index/resource_index/package_run_dependencies/kangaroo_x2_driver
+[4.692s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/ament_index/resource_index/parent_prefix_path/kangaroo_x2_driver
+[4.693s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/ament_prefix_path.sh
+[4.693s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/ament_prefix_path.dsv
+[4.693s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/path.sh
+[4.693s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/environment/path.dsv
+[4.693s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/local_setup.bash
+[4.694s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/local_setup.sh
+[4.695s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/local_setup.zsh
+[4.695s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/local_setup.dsv
+[4.695s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/package.dsv
+[4.695s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/ament_index/resource_index/packages/kangaroo_x2_driver
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/export_kangaroo_x2_driverExport.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/export_kangaroo_x2_driverExport-noconfig.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/ament_cmake_export_targets-extras.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/kangaroo_x2_driverConfig.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/cmake/kangaroo_x2_driverConfig-version.cmake
+[4.696s] -- Installing: /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/install/kangaroo_x2_driver/share/kangaroo_x2_driver/package.xml
+[4.701s] Invoked command in '/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/kangaroo_x2_driver/build/kangaroo_x2_driver

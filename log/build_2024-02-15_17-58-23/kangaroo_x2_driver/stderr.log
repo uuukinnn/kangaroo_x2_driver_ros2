@@ -1,0 +1,4 @@
+[01m[K/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/src/kangaroo_x2_driver/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/kangaroo_x2_driver/src/kangaroo_x2_driver/test.cpp:11:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kenc_count_per_rev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   11 |     unsigned long [01;35m[Kenc_count_per_rev[m[K = 1200;
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
